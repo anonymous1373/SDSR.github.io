@@ -99,9 +99,6 @@
     <td>
       <div align="center" id="slider1" style="display:inline-block; width: 620px;"></div>
     </td>
-    <td>
-      <div align="center" id="slider2" style="display:inline-block; width: 620px;"></div>
-    </td>
     </tr>
 </table>
 
@@ -119,7 +116,10 @@
       showCredits: false,
       makeResponsive: true
     });
-   new juxtapose.JXSlider('#slider2',
+</script>
+
+<script>
+  new juxtapose.JXSlider('#slider1',
     [
       {src: 'static/images/carousel5.jpg', label: 'Bicubic'},
       {src: 'static/images/carousel5.jpg',label: 'DM-SR'}
